@@ -6,4 +6,13 @@ def n_repeated(list):
         if sorted_list[i]==sorted_list[i-1]:
             s=sorted_list[i]
     return s
-print(n_repeated(nums))
+
+# def n_repeated(nums: list[int]) -> int | None:
+#     """Return the element repeated N times in a 2N array, or None if not found."""
+#     seen = set()
+#     for x in nums:
+#         if x in seen:
+#             return x
+#         seen.add(x)
+#     return None
+# print(n_repeated([1,2,3,4,3]))
